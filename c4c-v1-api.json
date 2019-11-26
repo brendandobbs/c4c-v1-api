@@ -1,0 +1,36 @@
+{
+    "provider": "SAP",
+    "name": "C4C OData v1 API (Legacy)",
+    "description": "C4C OData v1 API (Legacy)",
+    "shortDescription": "C4C OData v1 API (Legacy)",
+    "api": {
+      "targetUrl": "https://<changeme>.crm.ondemand.com/sap/c4c/odata/v1/c4codata",
+      "specificationUrl": "https://<changeme>.crm.ondemand.com/sap/c4c/odata/v1/c4codata/$metadata",
+      "apiType": "OData",
+      "credentials": {
+        "basic": {
+          "username": "<changeme>",
+          "password": "<changeme>"
+        }
+      },
+      "specificationCredentials": {
+        "basic": {
+          "username": "<changeme>",
+          "password": "<changeme>"
+        }
+      }
+    },
+    "documentation": {
+      "displayName": "C4C OData v1 API (Legacy)",
+      "description": "C4C OData v1 API (Legacy)",
+      "type": "Overview",
+      "tags": ["c4c"],
+      "docs": [
+          {
+          "title": "C4C OData v1 API (Legacy)",
+          "type": "type",
+          "source": "source"
+          }
+      ]
+    }
+  }

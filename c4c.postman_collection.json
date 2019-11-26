@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "c6a1e64d-4578-4020-bfab-a3b0422df1f3",
+		"name": "c4c",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register v1 API",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"provider\": \"SAP\",\n  \"name\": \"C4C OData v1 API (Legacy)\",\n  \"description\": \"C4C OData v1 API (Legacy)\",\n  \"shortDescription\": \"Short description\",\n  \"api\": {\n    \"targetUrl\": \"https://<changeme>.crm.ondemand.com/sap/c4c/odata/v1/c4codata\",\n    \"specificationUrl\": \"https://<changeme>.crm.ondemand.com/sap/c4c/odata/v1/c4codata/$metadata\",\n    \"apiType\": \"OData\",\n    \"credentials\": {\n      \"basic\": {\n        \"username\": \"<changeme>\",\n        \"password\": \"<changeme>\"\n      }\n    },\n    \"specificationCredentials\": {\n      \"basic\": {\n        \"username\": \"<changeme>\",\n        \"password\": \"<changeme>\"\n      }\n    }\n  },\n  \"documentation\": {\n    \"displayName\": \"C4C OData v1 API (Legacy)\",\n    \"description\": \"C4C OData v1 API (Legacy)\",\n    \"type\": \"Overview\",\n    \"tags\": [\"c4c\"],\n    \"docs\": [\n        {\n        \"title\": \"C4C OData v1 API (Legacy)\",\n        \"type\": \"type\",\n        \"source\": \"source\"\n        }\n    ]\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gateway.c4f-demo3.cluster.extend.cx.cloud.sap/c4c-test2/v1/metadata/services",
+					"protocol": "https",
+					"host": [
+						"gateway",
+						"c4f-demo3",
+						"cluster",
+						"extend",
+						"cx",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"c4c-test2",
+						"v1",
+						"metadata",
+						"services"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
